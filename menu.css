@@ -80,3 +80,27 @@ label {
 .logo:active {
     transform:scale(1.7);
 }
+
+.img-container {
+    display:inline-block;
+    text-align: center;
+    margin:20px;
+    position:relative;
+}
+@media (max-width: 768px) {
+    .img-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .img-container {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1201px) {
+    .img-container {
+        width: 30%;
+    }
